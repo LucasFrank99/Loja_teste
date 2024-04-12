@@ -1,0 +1,130 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Roboto, sans-serif;
+}
+
+.topo {
+   max-width: 1024px;
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-decoration: underline;
+}
+
+.principal h2 {
+   font-size: 3em;
+   display: flex;
+   justify-content: center;
+   padding-top: 36px;
+   padding-bottom: 16px;
+}
+
+.container {
+   
+   
+}
+
+
+.principal img {
+   position: relative;
+   display: flex;
+   max-width: 30%;
+   margin-left: 16em;
+   
+}
+
+.principal h3 {
+   position: relative;
+   align-items: center;
+   display: flex;
+   margin-left: 2%;
+   line-break: normal;
+   
+}
+
+
+header {
+   position: relative;
+   padding: 16px 0;
+   border-bottom: 2px solid #0a07c5;
+}
+
+.carros {
+   max-width: 100%;
+   position: ;
+   left: 5%;
+   right: 2%;
+   display: grid;
+   grid-template-columns: repeat(4, 24.25%);
+   column-gap: 1%;
+   row-gap: 5%;
+   
+}
+
+.carros img {
+   height: 60%;
+   margin: 36px 26px 36px 26px;
+   width: 90%;
+   
+}
+
+.carros ul {
+   position: relative;
+   left: 7%;
+}
+
+main {
+   background-color: rgb(204, 202, 202);
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+   .principal img {
+      
+      max-width: 50%;
+      margin-left: 16em;
+      position: relative;
+   }
+
+   .principal h3 {
+  
+   }
+}
+
+
+@media screen and (max-width: 640px) {
+
+
+.veiculos .carros {
+      margin-bottom: 32px;
+      flex-direction: column;
+      position: relative;
+      max-width:fit-content;
+}
+.principal img {
+   display: block;
+   position: relative;
+   max-width: 100%;
+   margin-left: 1em;
+
+}
+
+.principal {
+   display: block;
+}
+
+
+
+.principal h3 {
+   position: relative;
+   max-width: 100%;
+   align-items: center;
+   left: 10px;
+   margin-top: 36px;
+}
+
+}
